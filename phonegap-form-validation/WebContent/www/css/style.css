@@ -1,0 +1,114 @@
+fieldset {
+  padding: 1em;
+  font:80%/1 sans-serif;
+  border: medium dotted #3B6281;
+  width:500px;
+}
+
+legend {
+  color: #FFF;
+  background: #000;
+  font-size: 1.5em;
+  padding: 5px;
+  text-transform: uppercase;
+  border: medium dotted #60A4C1;    
+}
+
+.mandatory{
+  color: red;
+  float: left;
+  text-align:right;
+  width:2%;
+  margin-right:0.2em;
+}
+
+.formfield * {
+  vertical-align: top;
+  margin-left:10px;
+}
+
+#email {
+  margin-left:10px;
+}
+
+#personalURL {
+  margin-left:14px;
+}
+
+#birthdate {
+  margin-left:18px;
+  width:32%;
+}
+
+#male {
+  margin-left:55px;
+}
+
+#comments {
+  margin-left:31px;
+  height:100px;
+}
+
+.succ{
+  width: 15em;
+  border: 1px solid #333;
+  box-shadow: 8px 8px 5px #444;
+  padding: 8px 12px;
+  background-image: linear-gradient(180deg, #fff, #ddd 40%, #ccc);
+}
+
+.lbl {
+  font-family: Georgia, "Times New Roman", Times, serif;
+ font-size: 14px;
+ color: #333;
+ height: 20px;
+ width: 25%;
+ margin-right: 10px;
+ font-weight: bold;
+ text-align: left;
+ clear: both;
+}
+
+#check + #checkLbl {
+	background-color: #fafafa;
+	border: 1px solid #cacece;
+	box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05), inset 0px -15px 10px -12px rgba(0, 0, 0, 0.05);
+	border-radius: 3px;
+	display:inline-block;
+	position: relative;
+	vertical-align:middle;
+  padding:15px;
+}
+
+.checkP{
+  text-align: left;
+  width:500px;
+}
+
+.button1 {
+  background-color: #e7e7e7; 
+  color: black; 
+  border-radius: 8PX;
+  font-size: 16px;
+  padding: 8px 18px;
+  font-weight:bold;
+}
+
+.button1:hover {
+  background-color: #e7e7e7;
+  color: white;
+}
+
+.button2 {
+  background-color: #e7e7e7; 
+  color: black; 
+  border-radius: 8px;
+  font-size: 16px;
+  padding: 8px 18px;
+  font-weight:bold;
+}
+
+.button2:hover {
+  background-color: #e7e7e7;
+  color: white;
+}
