@@ -1,0 +1,21 @@
+{
+  "name": "phonegap-template-form-validation",
+  "version": "4.0.4",
+  "description": "> A Form Validation template built with PhoneGap",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/piyali2018/phonegap-form-validation.git"
+  },
+  "author": "Piyali Saha",
+  "license": "Apache-2.0",
+  "keywords": [
+    "ecosystem:phonegap",
+    "ecosystem:cordova",
+    "cordova:template",
+    "phonegap:template"
+  ],
+  "bugs": {
+    "url": "https://github.com//piyali2018/phonegap-form-validation/issues"
+  },
+  "homepage": "https://github.com//piyali2018/phonegap-form-validation"
+}
