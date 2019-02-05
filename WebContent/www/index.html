@@ -6,13 +6,20 @@ and open the template in the editor.
 -->
 <html>
     <head>
-        <title>Form Validation</title>
+        <title>HTML5 Form Validation</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="style.css">
-        <script src="script.js"></script>
+        <link rel="stylesheet" href="css/style.css">
+        <script src="js/script.js"></script>
     </head>
     <body>
+        <div class="qrcode">
+            <p class="formfield"><label class="lbl" for="qr">Phone Gap Qr code:</label>
+                <img src="img/phonegap-form-validation-qrCode.PNG" 
+                alt="PhoneGap QR Code" height="150" width="150" id="qr">
+            </p>
+        </div>
+
         <form action="destination.html" method="get" onsubmit="return checkForm(this);">
             <fieldset>
                 <Legend>Personal Information</legend>
@@ -54,6 +61,6 @@ and open the template in the editor.
                 <input type="submit" value="Submit" class="button1"> &nbsp; &nbsp; &nbsp; &nbsp; 
                 <button type="button" class="button2" onclick="clearAll()">Clear All</button>
             </p>
-            </form>
+        </form>
     </body>
 </html>
