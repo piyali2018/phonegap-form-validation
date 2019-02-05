@@ -3,7 +3,7 @@
 <!-- config.xml reference: https://build.phonegap.com/docs/config-xml -->
 <widget xmlns     = "http://www.w3.org/ns/widgets"
         xmlns:gap = "http://phonegap.com/ns/1.0"
-        id        = "com.phonegap.formValidation"
+        id        = "com.phonegap.formvalidation"
         version   = "1.0.0">
 
     <name>Form Validation</name>
@@ -40,14 +40,14 @@
     <plugin name="cordova-plugin-vibration"           source="npm" spec="~2.1.5" />
 
     <!-- Define app icon and splashscreen for each platform. -->
-	<icon src="icon.png" />
+	<!--<icon src="icon.png" />-->
     <platform name="android">
-        <!--<icon   src="www/res/icon/android/mipmap-ldpi.png"               density="ldpi" />
+        <icon   src="www/res/icon/android/mipmap-ldpi.png"               density="ldpi" />
         <icon   src="www/res/icon/android/mipmap-mdpi.png"               density="mdpi" />
         <icon   src="www/res/icon/android/mipmap-hdpi.png"               density="hdpi" />
         <icon   src="www/res/icon/android/mipmap-xhdpi.png"              density="xhdpi" />
         <icon   src="www/res/icon/android/mipmap-xxhdpi.png"             density="xxhdpi" />
-        <icon   src="www/res/icon/android/mipmap-xxxhdpi.png"            density="xxxhdpi" /> -->
+        <icon   src="www/res/icon/android/mipmap-xxxhdpi.png"            density="xxxhdpi" /> 
     </platform>
 
     <platform name="ios">
@@ -76,13 +76,13 @@
         <splash src="www/res/screen/ios/Default-Portrait@2x~ipad.png"   platform="ios" width="1536" height="2048" />
         <splash src="www/res/screen/ios/Default-Portrait~ipad.png"      platform="ios" width="768"  height="1024" />
         <splash src="www/res/screen/ios/Default@2x~iphone.png"          platform="ios" width="640"  height="960" />
-        <splash src="www/res/screen/ios/Default~iphone.png"             platform="ios" width="320"  height="480" />-->
+        <splash src="www/res/screen/ios/Default~iphone.png"             platform="ios" width="320"  height="480" /> -->
     </platform>
 
     <platform name="wp8">
-        <!--<icon   src="www/res/icon/wp8/ApplicationIcon.png"   platform="wp8" width="99"  height="99" />
+      <!--   <icon   src="www/res/icon/wp8/ApplicationIcon.png"   platform="wp8" width="99"  height="99" />
         <icon   src="www/res/icon/wp8/Background.png"        platform="wp8" width="159" height="159" />
-        <splash src="www/res/screen/wp8/screen-portrait.jpg" platform="wp8" width="768" height="1280" />-->
+        <splash src="www/res/screen/wp8/screen-portrait.jpg" platform="wp8" width="768" height="1280" /> -->
     </platform>
 
     <platform name="windows">
@@ -95,12 +95,12 @@
         <!-- <icon src="www/res/icon/windows/Square150x150Logo.png" target="Square150x150Logo" /> -->
         <!-- <icon src="www/res/icon/windows/Square310x310Logo.png" target="Square310x310Logo" /> -->
         <!-- <icon src="www/res/icon/windows/Wide310x150Logo.png"   target="Wide310x150Logo" /> -->
-        <!--<icon src="www/res/icon/windows/Square150x150Logo.scale-100.png"     platform="windows"   width="150"  height="150" />
+        <!-- <icon src="www/res/icon/windows/Square150x150Logo.scale-100.png"     platform="windows"   width="150"  height="150" />
         <icon src="www/res/icon/windows/Square30x30Logo.scale-100.png"       platform="windows"   width="30"   height="30" />
         <icon src="www/res/icon/windows/StoreLogo.scale-100.png"             platform="windows"   width="50"   height="50" />
         <splash src="www/res/screen/windows/SplashScreen.scale-100.png"      platform="windows"   width="620"  height="300" />
         <!-- scaled images are specified here for backward compatibility only so we can find them by size -->
-        <!--<icon   src="www/res/icon/windows/StoreLogo.scale-240.png"           platform="windows"   width="120"  height="120" />
+        <!-- <icon   src="www/res/icon/windows/StoreLogo.scale-240.png"           platform="windows"   width="120"  height="120" />
         <icon   src="www/res/icon/windows/Square44x44Logo.scale-100.png"     platform="windows"   width="44"   height="44" />
         <icon   src="www/res/icon/windows/Square44x44Logo.scale-240.png"     platform="windows"   width="106"  height="106" />
         <icon   src="www/res/icon/windows/Square70x70Logo.scale-100.png"     platform="windows"   width="70"   height="70" />
@@ -110,7 +110,7 @@
         <icon   src="www/res/icon/windows/Square310x310Logo.scale-100.png"   platform="windows"   width="310"  height="310" />
         <icon   src="www/res/icon/windows/Wide310x150Logo.scale-100.png"     platform="windows"   width="310"  height="150" />
         <icon   src="www/res/icon/windows/Wide310x150Logo.scale-240.png"     platform="windows"   width="744"  height="360" />
-        <splash src="www/res/screen/windows/SplashScreenPhone.scale-240.png" platform="windows"   width="1152" height="1920" />-->
+        <splash src="www/res/screen/windows/SplashScreenPhone.scale-240.png" platform="windows"   width="1152" height="1920" /> -->
     </platform>
 
     <!--
