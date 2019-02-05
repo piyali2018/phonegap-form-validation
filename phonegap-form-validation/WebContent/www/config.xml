@@ -40,14 +40,14 @@
     <plugin name="cordova-plugin-vibration"           source="npm" spec="~2.1.5" />
 
     <!-- Define app icon and splashscreen for each platform. -->
-	<icon src="www/icon.png" />
+	<icon src="icon.png" />
     <platform name="android">
-        <!--<icon   src="www/res/icon/android/mipmap-ldpi.png"               density="ldpi" />
+        <icon   src="www/res/icon/android/mipmap-ldpi.png"               density="ldpi" />
         <icon   src="www/res/icon/android/mipmap-mdpi.png"               density="mdpi" />
         <icon   src="www/res/icon/android/mipmap-hdpi.png"               density="hdpi" />
         <icon   src="www/res/icon/android/mipmap-xhdpi.png"              density="xhdpi" />
         <icon   src="www/res/icon/android/mipmap-xxhdpi.png"             density="xxhdpi" />
-        <icon   src="www/res/icon/android/mipmap-xxxhdpi.png"            density="xxxhdpi" /> -->
+        <icon   src="www/res/icon/android/mipmap-xxxhdpi.png"            density="xxxhdpi" />
     </platform>
 
     <platform name="ios">
@@ -115,10 +115,8 @@
 
     <!--
         Define access to external domains.
-
         <access />            - a blank access tag denies access to all external resources.
         <access origin="*" /> - a wildcard access tag allows access to all external resource.
-
         Otherwise, you can specify specific domains:
     -->
     <access origin="*" />
