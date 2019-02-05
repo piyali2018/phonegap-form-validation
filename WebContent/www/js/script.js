@@ -19,6 +19,14 @@
 // });
 
   function checkForm(form){
+    var dateString = document.getElementById("birthdate").value;
+  var myDate = new Date(dateString);
+  var today = new Date();
+  if ( myDate > today ) { 
+      alert("Birthdate should be less than current date");
+      return false;
+  }
+
     if(!form.terms.checked) {
       alert("Please indicate that you accept the Terms and Conditions");
       form.terms.focus();
@@ -36,4 +44,15 @@
    document.getElementById("other").checked=false;
    document.getElementById("comments").value="";
  }
+
+ function checkDOB() {
+  var dateString = document.getElementById("birthdate").value;
+  var myDate = new Date(dateString);
+  var today = new Date();
+  if ( myDate > today ) { 
+      alert(1);
+      return false;
+  }
+  return true;
+}
 
